@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --bg: #f6f2e9;
+  --surface: #fdfaf3;
+  --border: #ddd5c2;
+  --ink: #1d1b18;
+  --muted: #6f685c;
+  --accent: #7a1c1c;
+  --valid-bg: #e0efe2;
+  --valid-ink: #1f5a2b;
+  --invalid-bg: #f8e1df;
+  --invalid-ink: #8a1f1a;
+  --font-serif: Georgia, 'Times New Roman', serif;
+  --font-sans: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Mono', Consolas, monospace;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
+
